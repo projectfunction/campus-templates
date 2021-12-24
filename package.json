@@ -1,0 +1,15 @@
+{
+  "name": "campus-templates",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/projectfunction/campus-templates",
+  "author": "Daryl Cecile <6310278+daryl-cecile@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "husky-pre-commit": "node buildIndex.js"
+  },
+  "dependencies": {
+    "husky": "^7.0.4"
+  }
+}
