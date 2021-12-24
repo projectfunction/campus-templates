@@ -7,9 +7,12 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "husky-pre-commit": "node buildIndex.js"
+    "husky-pre-commit": "node buildIndex.mjs && git add index.ctemplate.json"
   },
   "dependencies": {
     "husky": "^7.0.4"
+  },
+  "engines": {
+    "node": "^14"
   }
 }

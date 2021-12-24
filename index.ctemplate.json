@@ -1,0 +1,13 @@
+{
+	"lastGenerated": "2021-12-24T00:52:24.936Z",
+	"version": "v2.0.0-b01",
+	"templates": {
+		"simple-web": {
+			"name": "Simple HTML template",
+			"files": [
+				"templates/simple-web/index.html",
+				"templates/simple-web/styles.css"
+			]
+		}
+	}
+}
