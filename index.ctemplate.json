@@ -1,10 +1,10 @@
 {
-	"lastGenerated": "2022-01-03T15:11:56.389Z",
+	"lastGenerated": "2022-01-03T15:22:19.442Z",
 	"version": "v2.0.0-b01",
 	"templates": {
 		"simple-web": {
 			"name": "Simple HTML template",
-			"content": "code",
+			"system": "scratchpad",
 			"files": [
 				"/index.html",
 				"/styles.css"
@@ -12,7 +12,7 @@
 		},
 		"simple-wireframe": {
 			"name": "Simple Wireframe template",
-			"content": "wireframe",
+			"system": "wirepad",
 			"files": [
 				"/blank.wirepad.json"
 			]

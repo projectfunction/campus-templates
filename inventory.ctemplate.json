@@ -3,11 +3,11 @@
   "include": {
     "simple-web" : {
       "name": "Simple HTML template",
-      "content": "code"
+      "system": "scratchpad"
     },
     "simple-wireframe" : {
       "name": "Simple Wireframe template",
-      "content": "wireframe"
+      "system": "wirepad"
     }
   }
 }
