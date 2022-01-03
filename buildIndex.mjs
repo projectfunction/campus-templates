@@ -41,7 +41,9 @@ Object.keys(inventory.include ?? {}).forEach(templateFolderName => {
 
     index.templates[templateFolderName] = {
         name: inventory.include[templateFolderName],
-        files: filesInTemplateFolder
+        files: filesInTemplateFolder.map(templateFilePath => {
+            return templateFilePath.replace( join("./templates", templateFolderName), "" )
+        })
     }
 });
 
