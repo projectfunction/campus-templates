@@ -1,6 +1,13 @@
 {
-    "version": "v2.0.0-b01",
-    "include": {
-      "simple-web" : "Simple HTML template"
+  "version": "v2.0.0-b01",
+  "include": {
+    "simple-web" : {
+      "name": "Simple HTML template",
+      "content": "code"
+    },
+    "simple-wireframe" : {
+      "name": "Simple Wireframe template",
+      "content": "wireframe"
     }
   }
+}

@@ -40,7 +40,9 @@ Object.keys(inventory.include ?? {}).forEach(templateFolderName => {
     if (filesInTemplateFolder.length === 0) throw new Error(`Files missing in template '${templateFolderName}'`);
 
     index.templates[templateFolderName] = {
-        name: inventory.include[templateFolderName],
+        name: inventory.include[templateFolderName].name,
+        content: inventory.include[templateFolderName].content,
+        testDir: inventory.include[templateFolderName].testDir,
         files: filesInTemplateFolder.map(templateFilePath => {
             return templateFilePath.replace( join("./templates", templateFolderName), "" )
         })
